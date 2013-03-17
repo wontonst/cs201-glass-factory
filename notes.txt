@@ -1,0 +1,12 @@
+Here are a few things I discovered that we need to unify.
+
+Universal glass object. Current setup is
+Glass extends UniqueObject (for an ID) and has a Barcode (for a categorization)
+
+Debug message control. This is what I expect everyone can do when we integrate (in fact everyone should extend glassline.interfaces.PrintControllable
+myConveyorFamily.setDebug(true);//this enables printing
+Debug messages should follow the format
+MyConveyorFamily: mymessage
+MyConveyorFamily.MySubclass: mymessage
+
+
