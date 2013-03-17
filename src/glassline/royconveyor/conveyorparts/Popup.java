@@ -1,4 +1,4 @@
-package glassline.royconveyor;
+package glassline.royconveyor.conveyorparts;
 
 /**
 Object representation of the conveyor line pop up system. has an OperatorAgent attached. 

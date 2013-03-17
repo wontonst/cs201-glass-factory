@@ -1,4 +1,4 @@
-package glassline.royconveyor;
+package glassline.royconveyor.conveyorparts;
 
 /**
 All parts that exists in the ConveyorAgent must extend this class.

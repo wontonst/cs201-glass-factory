@@ -1,4 +1,4 @@
-package glassline.royconveyor;
+package glassline.royconveyor.conveyorparts;
 
 /**
 A data structure that is used to represent that various segments of the conveyor.
