@@ -3,7 +3,7 @@ package glassline.royconveyor;
 /**
 Object representation of the conveyor line pop up system. has an OperatorAgent attached. 
  */
-public class Popup{
+public class Popup extends ConveyorPart{
     
     protected BinaryTree<Barcode> persistentgrab;///<grabs all parts with the specified barcode
     protected BinaryTree<UniqueObject> singlegrab;///<grabs a single part
