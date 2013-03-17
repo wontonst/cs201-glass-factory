@@ -1,6 +1,6 @@
 package glassline.royconveyor;
 
-public class ConveyorPart{
+public class ConveyorPart extends VerboseObject{
 
     private static int linesize = 0;
 

@@ -11,7 +11,7 @@ public class ConveyorLine extends VerboseObject implements ConveyorFamily{
 
     public ConveyorLine()
     {
-
+	super("MAIN");//set name of this class
     }
 
 
