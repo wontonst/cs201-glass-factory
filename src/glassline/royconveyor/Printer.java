@@ -11,6 +11,6 @@ public class Printer implements PrintControllable{
     public void print(String s)
     {
 	if(verbosity)
-	System.out.println("RoyFamily"+s);
+	System.out.println(s);
     }
 }
