@@ -1,5 +1,5 @@
 
-public class VerboseAgent{
+public abstract class VerboseAgent extends Agent{
     private String name = null;
     private Printer printer = new Printer();
     public VerboseObject(){}
